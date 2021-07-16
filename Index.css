@@ -1,0 +1,22 @@
+.sign{
+
+    margin-bottom: 50x;
+}
+
+.home-bg{
+
+    background: url(D:/Downloads/wp2337019-blockchain-wallpapers.jpg);
+
+    background-size: 100%;
+
+}
+
+.lightbox{
+    background-color: white;
+    opacity: 1;
+    margin-left: 1010px;
+    margin-right: 200px;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 20px;
+}
