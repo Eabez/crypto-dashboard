@@ -1,0 +1,50 @@
+/*.home-bg{
+    background: url(images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+.logo-text{
+    background: #FF4E50;
+background: -webkit-repeating-linear-gradient(to top left, #FF4E50 69%, #F9D423 100%);
+background: -moz-repeating-linear-gradient(to top left, #FF4E50 69%, #F9D423 100%);
+background: repeating-linear-gradient(to top left, #FF4E50 69%, #F9D423 100%);
+
+}
+.i1{
+    margin-top: 150px;
+    margin-left: -380px;
+    margin-bottom: 55px;
+    height: 200px;
+}
+.i2{
+    margin-top: 50px;
+    margin-left: 700px;
+    height: 200px;
+}
+body{
+    background-size: 2000px;
+    background-image: linear-gradient(to left ,#1ca7ec, #7c31df);
+    /*background-image: linear-gradient(to right bottom,#1ca7ec, #1f2f98);
+    /*background-image: linear-gradient(to right,#8676ec,#6454d1);
+    /*background-image: linear-gradient(to left,#87e9f8, #23a3ca);
+    background-image: linear-gradient(to right,#4358cf, #d98bed);
+    background-image: linear-gradient(to right,#7bc5ae,#028c6a);*/
+    
+}
+.main{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -50px;
+    margin-right: 400px;
+}
+.title-size{
+    font-size: 70px;
+    line-height: 1;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 900;
+}
+.sub-title-size{
+    font-size: 17px;
+    font-family: 'Blinker', sans-serif;
+}
+
