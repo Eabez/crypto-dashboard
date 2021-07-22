@@ -1,0 +1,22 @@
+
+
+.background{
+    background-image: url("images/undraw_crypto_portfolio_2jy5.svg"),url("images/undraw_nakamoto_2iv6.svg"),linear-gradient(to left top, #244d47 40%, #0b4275 60%);;
+    background-repeat: no-repeat;
+    background-size: 260px,290px,cover;
+    background-position: 100px 380px,1150px 30px,0px 0px;
+    height:655px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.align{
+    margin-top: 66px;
+}
+
+.modi{
+    margin-top: 10px;
+    position: absolute;
+}
