@@ -1,0 +1,99 @@
+.home-bg{
+    position: relative;
+
+    background-image: url("images/business-analysis.webp"),url("images/computer.webp"),url("images/analysis-3856457-3212622.webp"),url("images/rocket.webp"),url("images/wallet.webp"),url("https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg");/*linear-gradient(to left top, #000000 20%, #04619f 74%);*/
+    background-position: 1150px 100px,900px 10px,50px 20px,0px 350px,1000px 350px,0px 0px;
+    background-size:300px,250px,300px,500px,400px,cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    animation: myfirst 5s ease-in 2s infinite alternate;
+    /*background-image: linear-gradient(to right bottom,#1ca7ec, #1f2f98);
+    /*background-image: linear-gradient(to right,#8676ec,#6454d1);
+    /*background-image: linear-gradient(to left,#87e9f8, #23a3ca);
+    background-image: linear-gradient(to right,#4358cf, #d98bed);
+    background-image: linear-gradient(to right,#7bc5ae,#028c6a);*/ 
+}
+.nav-link:hover{
+    border-bottom: 5px solid #d47dff;
+    font-size: 20px;
+    color: #d47dff;
+  
+}
+.nav-link{
+    color: #BF3EFF;
+}
+nav{
+    background-color: transparent;
+}
+.navbar-nav {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.navbar{
+    background-color: transparent;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+.text-align{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 250px;
+}
+.title-size{
+    font-size: 70px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 900;
+    overflow: hidden;
+  	letter-spacing: 2px;
+    white-space: nowrap;    
+
+    box-sizing: border-box;
+}
+.ty1{
+    animation: typewriter 2s steps(22) 1s normal both,
+    blinkTextCursor 500ms steps(22) infinite normal;
+}
+.ty2{
+    animation: typewriter 2s steps(22) 3s normal both,
+    blinkTextCursor 500ms steps(22) infinite normal;
+}
+
+@keyframes typewriter{
+from{width: 0%;}
+to{width: 100%;}
+}
+.sub-title-size{
+    font-size: 17px;
+    font-family: 'Blinker', sans-serif;
+    animation: fadeIn 5s ease ;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;display: none;}
+    100% {opacity: 1;display: block;}
+}
+.btn{
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 900;
+    animation: fadeIn 5s ease ;
+}
+
+.feature{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+.mt-n4{
+    margin-top: -1.5rem;
+}
+/*START IMAGES*/
+
+/*END IMAGES*/
+@keyframes myfirst {
+    from {background-size:300px,250px,300px,500px,400px,cover;}
+  to {background-size:330px,220px,340px,480px,380px,cover;}
+}

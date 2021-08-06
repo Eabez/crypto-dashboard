@@ -1,0 +1,22 @@
+.background{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/001/849/559/non_2x/flat-abstract-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:751px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.modi{
+    margin-top: 100px;
+    position: absolute;
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.he{
+    height: 0.5px;
+    width:9%;
+    margin-top: -10px;
+}

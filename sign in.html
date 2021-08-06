@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sign In</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/signin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand px-5" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="40"
+        viewBox="0 145 400 70" version="1.2">
+        <defs>
+          <g>
+            <symbol overflow="visible" id="glyph0-0">
+              <path style="stroke:none;"
+                d="M 23.238281 0 C 24.015625 0 24.304688 -0.484375 23.964844 -1.117188 L 15.167969 -20.757812 L 23.429688 -37.722656 C 23.773438 -38.402344 23.480469 -38.890625 22.75 -38.890625 L 17.648438 -38.890625 C 17.113281 -38.890625 16.769531 -38.648438 16.527344 -38.160156 L 9.042969 -22.847656 L 9.042969 -37.917969 C 9.042969 -38.550781 8.703125 -38.890625 8.070312 -38.890625 L 3.402344 -38.890625 C 2.769531 -38.890625 2.429688 -38.550781 2.429688 -37.917969 L 2.429688 -0.972656 C 2.429688 -0.339844 2.769531 0 3.402344 0 L 8.070312 0 C 8.703125 0 9.042969 -0.339844 9.042969 -0.972656 L 9.042969 -11.714844 L 10.839844 -15.167969 L 16.964844 -0.730469 C 17.160156 -0.242188 17.5 0 18.085938 0 Z M 23.238281 0 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-1">
+              <path style="stroke:none;"
+                d="M 22.410156 -31.890625 C 22.410156 -36.460938 19.980469 -38.890625 15.410156 -38.890625 L 3.207031 -38.890625 C 2.722656 -38.890625 2.429688 -38.597656 2.429688 -38.113281 L 2.429688 -0.777344 C 2.429688 -0.292969 2.722656 0 3.207031 0 L 8.265625 0 C 8.75 0 9.042969 -0.292969 9.042969 -0.777344 L 9.042969 -13.027344 L 12.394531 -13.027344 L 15.652344 -0.679688 C 15.75 -0.242188 15.992188 0 16.480469 0 L 21.535156 0 C 22.070312 0 22.363281 -0.292969 22.214844 -0.875 L 18.863281 -13.613281 C 21.195312 -14.632812 22.410156 -16.769531 22.410156 -20.027344 Z M 9.042969 -19.445312 L 9.042969 -32.472656 L 13.855469 -32.472656 C 15.117188 -32.472656 15.800781 -31.792969 15.800781 -30.527344 L 15.800781 -21.390625 C 15.800781 -20.125 15.117188 -19.445312 13.855469 -19.445312 Z M 9.042969 -19.445312 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-2">
+              <path style="stroke:none;"
+                d="M 19.835938 -38.890625 C 19.25 -38.890625 18.910156 -38.648438 18.714844 -38.113281 L 13.269531 -24.160156 L 7.828125 -38.113281 C 7.632812 -38.648438 7.292969 -38.890625 6.707031 -38.890625 L 1.847656 -38.890625 C 1.117188 -38.890625 0.777344 -38.453125 1.070312 -37.773438 L 9.964844 -16.140625 L 9.964844 -0.972656 C 9.964844 -0.339844 10.304688 0 10.9375 0 L 15.605469 0 C 16.238281 0 16.578125 -0.339844 16.578125 -0.972656 L 16.578125 -16.140625 L 25.472656 -37.773438 C 25.765625 -38.453125 25.425781 -38.890625 24.695312 -38.890625 Z M 19.835938 -38.890625 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-3">
+              <path style="stroke:none;"
+                d="M 2.429688 -0.777344 C 2.429688 -0.292969 2.722656 0 3.207031 0 L 8.265625 0 C 8.800781 0 9.042969 -0.292969 9.042969 -0.777344 L 9.042969 -13.027344 L 14.875 -13.027344 C 19.445312 -13.027344 21.875 -15.507812 21.875 -20.027344 L 21.875 -31.890625 C 21.875 -36.460938 19.445312 -38.890625 14.875 -38.890625 L 3.207031 -38.890625 C 2.722656 -38.890625 2.429688 -38.597656 2.429688 -38.113281 Z M 9.042969 -19.445312 L 9.042969 -32.472656 L 13.320312 -32.472656 C 14.632812 -32.472656 15.265625 -31.792969 15.265625 -30.527344 L 15.265625 -21.390625 C 15.265625 -20.175781 14.632812 -19.445312 13.320312 -19.445312 Z M 9.042969 -19.445312 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-4">
+              <path style="stroke:none;"
+                d="M 2.234375 -38.890625 C 1.75 -38.890625 1.457031 -38.597656 1.457031 -38.113281 L 1.457031 -33.25 C 1.457031 -32.765625 1.75 -32.472656 2.234375 -32.472656 L 7.875 -32.472656 L 7.875 -0.777344 C 7.875 -0.242188 8.167969 0 8.652344 0 L 13.707031 0 C 14.242188 0 14.488281 -0.242188 14.488281 -0.777344 L 14.488281 -32.472656 L 20.125 -32.472656 C 20.660156 -32.472656 20.902344 -32.765625 20.902344 -33.25 L 20.902344 -38.113281 C 20.902344 -38.597656 20.660156 -38.890625 20.125 -38.890625 Z M 2.234375 -38.890625 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-5">
+              <path style="stroke:none;"
+                d="M 2.429688 -7 C 2.429688 -2.429688 4.859375 0 9.429688 0 L 14.875 0 C 19.445312 0 21.875 -2.429688 21.875 -7 L 21.875 -31.890625 C 21.875 -36.460938 19.445312 -38.890625 14.875 -38.890625 L 9.429688 -38.890625 C 4.859375 -38.890625 2.429688 -36.460938 2.429688 -31.890625 Z M 10.839844 -6.269531 C 9.578125 -6.269531 8.894531 -6.902344 8.894531 -8.214844 L 8.894531 -30.675781 C 8.894531 -31.9375 9.578125 -32.621094 10.839844 -32.621094 L 13.660156 -32.621094 C 14.925781 -32.621094 15.605469 -31.9375 15.605469 -30.675781 L 15.605469 -8.214844 C 15.605469 -6.902344 14.925781 -6.269531 13.660156 -6.269531 Z M 10.839844 -6.269531 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-6">
+              <path style="stroke:none;"
+                d="M 9.429688 -38.890625 C 4.910156 -38.890625 2.429688 -36.460938 2.429688 -31.890625 L 2.429688 -20.417969 C 2.429688 -19.492188 2.867188 -18.910156 3.742188 -18.617188 L 15.265625 -14.828125 L 15.265625 -8.363281 C 15.265625 -7.050781 14.582031 -6.417969 13.320312 -6.417969 L 10.988281 -6.417969 C 9.769531 -6.417969 9.042969 -7.050781 9.042969 -8.363281 L 9.042969 -12.105469 C 9.042969 -12.640625 8.800781 -12.882812 8.265625 -12.882812 L 3.207031 -12.882812 C 2.722656 -12.882812 2.429688 -12.640625 2.429688 -12.105469 L 2.429688 -7 C 2.429688 -2.429688 4.910156 0 9.429688 0 L 14.875 0 C 19.445312 0 21.875 -2.429688 21.875 -7 L 21.875 -18.230469 C 21.875 -19.152344 21.4375 -19.6875 20.613281 -20.027344 L 9.042969 -23.820312 L 9.042969 -30.527344 C 9.042969 -31.792969 9.769531 -32.472656 10.988281 -32.472656 L 13.320312 -32.472656 C 14.632812 -32.472656 15.265625 -31.792969 15.265625 -30.527344 L 15.265625 -26.738281 C 15.265625 -26.25 15.554688 -25.960938 16.042969 -25.960938 L 21.097656 -25.960938 C 21.632812 -25.960938 21.875 -26.25 21.875 -26.738281 L 21.875 -31.890625 C 21.875 -36.460938 19.445312 -38.890625 14.875 -38.890625 Z M 9.429688 -38.890625 " />
+            </symbol>
+            <symbol overflow="visible" id="glyph0-7">
+              <path style="stroke:none;"
+                d="M 25.863281 0 C 26.445312 0 26.640625 -0.292969 26.542969 -0.828125 L 18.472656 -38.210938 C 18.375 -38.695312 18.085938 -38.890625 17.648438 -38.890625 L 10.890625 -38.890625 C 10.453125 -38.890625 10.160156 -38.695312 10.0625 -38.210938 L 1.992188 -0.828125 C 1.847656 -0.292969 2.089844 0 2.625 0 L 7.828125 0 C 8.265625 0 8.507812 -0.242188 8.605469 -0.679688 L 9.917969 -7.777344 L 18.570312 -7.777344 L 19.929688 -0.679688 C 20.027344 -0.242188 20.273438 0 20.710938 0 Z M 17.355469 -13.417969 L 11.132812 -13.417969 L 14.242188 -30.382812 Z M 17.355469 -13.417969 " />
+            </symbol>
+          </g>
+        </defs>
+        <g id="surface1">
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-0" x="89.387485" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-1" x="116.655741" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-2" x="142.708848" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-3" x="170.463156" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-4" x="195.981606" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-5" x="219.555817" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-6" x="245.074267" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-4" x="270.592716" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-7" x="294.166915" y="205.046375" />
+          </g>
+          <g style="fill:#ffffff;fill-opacity:1;">
+            <use xlink:href="#glyph0-4" x="323.865468" y="205.046375" />
+          </g>
+          <path style=" stroke:none;fill-rule:nonzero;fill:#3d7dca;fill-opacity:1;"
+            d="M 33.40625 192.085938 C 31.882812 192.25 30.394531 192.820312 29.121094 193.796875 L 25.308594 179.574219 C 24.773438 177.570312 25.34375 175.4375 26.808594 173.972656 L 41.808594 158.972656 C 43.273438 157.507812 45.40625 156.933594 47.410156 157.472656 L 61.105469 161.140625 C 60.179688 162.441406 59.65625 163.941406 59.539062 165.46875 L 48.167969 162.417969 C 46.546875 161.984375 44.816406 162.449219 43.628906 163.636719 L 31.472656 175.789062 C 30.285156 176.976562 29.820312 178.707031 30.257812 180.328125 Z M 69.285156 174.640625 L 72.539062 186.792969 C 72.976562 188.414062 72.511719 190.148438 71.324219 191.332031 L 59.167969 203.488281 C 57.984375 204.675781 56.253906 205.140625 54.628906 204.703125 L 42.871094 201.554688 C 42.707031 203.078125 42.140625 204.566406 41.164062 205.839844 L 55.386719 209.652344 C 57.386719 210.1875 59.523438 209.617188 60.988281 208.152344 L 75.988281 193.152344 C 77.453125 191.6875 78.023438 189.550781 77.488281 187.550781 L 73.535156 172.796875 C 72.28125 173.816406 70.804688 174.433594 69.285156 174.640625 Z M 69.285156 174.640625 " />
+          <path style=" stroke:none;fill-rule:nonzero;fill:#ffcb05;fill-opacity:1;"
+            d="M 39.203125 195.757812 C 41.886719 198.445312 41.886719 202.8125 39.203125 205.5 C 36.515625 208.183594 32.148438 208.183594 29.460938 205.5 C 26.777344 202.8125 26.777344 198.445312 29.460938 195.757812 C 32.148438 193.074219 36.515625 193.074219 39.203125 195.757812 Z M 63.238281 161.269531 C 60.554688 163.953125 60.554688 168.324219 63.238281 171.011719 C 65.925781 173.695312 70.292969 173.695312 72.980469 171.011719 C 75.664062 168.324219 75.664062 163.953125 72.980469 161.269531 C 70.292969 158.582031 65.925781 158.582031 63.238281 161.269531 Z M 62.03125 172.21875 C 60.660156 170.84375 59.847656 169.117188 59.601562 167.328125 L 48.460938 164.34375 C 46.988281 163.949219 45.414062 164.371094 44.335938 165.449219 L 33.285156 176.496094 C 32.207031 177.578125 31.785156 179.148438 32.179688 180.625 L 35.253906 192.085938 C 37.136719 192.289062 38.96875 193.109375 40.410156 194.550781 C 41.851562 195.992188 42.671875 197.824219 42.875 199.707031 L 54.335938 202.78125 C 55.8125 203.175781 57.382812 202.753906 58.464844 201.675781 L 69.511719 190.625 C 70.589844 189.546875 71.011719 187.976562 70.617188 186.5 L 67.457031 174.703125 C 65.476562 174.554688 63.542969 173.726562 62.03125 172.21875 Z M 62.03125 172.21875 " />
+        </g>
+
+      </svg>
+    </a>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link px-5 active" href="#contact">Contact Us</a>
+        <a class="nav-item nav-link px-5 active" href="sign in.html">Sign In</a>
+        <a class="nav-item nav-link px-5 active" href="#">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="background align" >
+  <div class="modi w-100">
+  <div class=" p-2 mx-auto mt-5 text-light h1 text-center">
+
+    Sign In
+  </div>
+  <div class="bg-white mx-auto he"></div>
+  <form action="/action_page.php" class=" needs-validation my-3 mx-auto shadow text-light rounded py-3 px-3 w-25"
+    novalidate>
+    <div class="form-group h5 my-4">
+      <label>Email-ID</label>
+      <div class="input-group mb-3">
+
+
+
+        <div class="input-group-prepend">
+
+          <i class="input-group-text fas fa-envelope" fill="#"></i>
+
+        </div>
+        <input type="email" class="form-control rounded" id="email" placeholder="Enter email" name="email" required>
+
+        <div class="valid-feedback">Valid.</div>
+
+        <div class="invalid-feedback">Please fill out this field.</div>
+
+      </div>
+
+    </div>
+
+    <div class="form-group h5 my-4">
+      <label>Password</label>
+      <div class="input-group mb-3">
+
+        <div class="input-group-prepend">
+
+          <i class="input-group-text fas fa-lock"></i>
+
+        </div>
+
+        <input type="password" class="form-control rounded" id="pwd" placeholder="Enter password" name="pswd" required>
+
+        <div class="valid-feedback">Valid.</div>
+
+        <div class="invalid-feedback">Please fill out this field.</div>
+
+      </div>
+
+    </div><br>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form>
+</div>
+</div>
+<footer class="page-footer font-small bg-dark text-light pt-4 ttop" id="contact" style="position: static;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+        <p>The recent boom in the cryptocurrency industry has attracted many investors towards it.</p>
+        <p>Kryptostat is a simple yet interactive dashboard that helps you check the real time exchange rates of the
+          cryptos you have invested in and know more about your investments!</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <a href="about.html" style="text-decoration: none;color: white;">ABOUT US</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="#!" style="text-decoration: none;color: white;">BLOG</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">Contact Us</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> Mumbai, MB- 400075, India
+            </p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> Kryptostat@gmail.com
+            </p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-phone mr-3"></i>+91 9004223737
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
+              class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://mail.google.com/" role="button"><i
+              class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i
+              class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button"><i
+              class="fab fa-github"></i></a>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright :
+    <a href="homepage.html" style="text-decoration: none;color: white;"> Kryptostat.com</a>
+  </div>
+</footer>
+  <script>
+    // Disable form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Get the forms we want to add validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+</body>
+
+</html>
